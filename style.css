@@ -1,0 +1,139 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: 'Baloo 2', sans-serif;
+  background-color: #bde0f6; /* light blue from logo */
+  color: #222;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #FFD43B; /* yellow from logo */
+  padding: 10px 20px;
+}
+
+header .logo img {
+  height: 60px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #222;
+}
+
+nav ul li a:hover {
+  color: #fff;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 50px 20px;
+  background: #fff;
+  border-bottom: 4px solid #FFD43B;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  color: #333;
+}
+
+.hero p {
+  margin: 10px 0 20px;
+  font-size: 1.2rem;
+}
+
+.btn {
+  display: inline-block;
+  background: #FFD43B;
+  color: #222;
+  padding: 10px 20px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background: #222;
+  color: #fff;
+}
+
+/* Activities Section */
+.activities {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.activities h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.activity-list {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.activity-card {
+  background: #fff;
+  border: 2px solid #FFD43B;
+  border-radius: 10px;
+  padding: 20px;
+  width: 280px;
+  text-align: left;
+  box-shadow: 2px 4px 6px rgba(0,0,0,0.1);
+}
+
+.activity-card h3 {
+  margin-top: 0;
+  color: #FFD43B;
+}
+
+.activity-card button {
+  background: #FFD43B;
+  border: none;
+  padding: 10px 15px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.activity-card button:hover {
+  background: #222;
+  color: #fff;
+}
+
+.activity-card .waiver {
+  display: block;
+  margin-top: 10px;
+  text-decoration: none;
+  font-size: 0.9rem;
+  color: #0077cc;
+}
+
+.activity-card .waiver:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  background: #FFD43B;
+  text-align: center;
+  padding: 15px;
+  font-size: 0.9rem;
+}
